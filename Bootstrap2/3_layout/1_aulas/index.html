@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Layout</title>
+</head>
+<body>
+    <h1>Seção de Layout</h1>
+    <button class="btn btn-primary">Clique aqui</button>
+    <div class="container">
+        <h2>Título da seção</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+    </div>
+    <div class="container-fluid">
+        <h2>Título da seção</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+    </div>
+    <div class="container-sm">
+        <h2>Título da seção SM</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+    </div>
+    <div class="container-md">
+        <h2>Título da seção SM</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+    </div>
+    <div class="container-lg">
+        <h2>Título da seção SM</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+    </div>
+
+    <!-- Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Produto A</p>
+            </div>
+            <div class="col">
+                <p>Produto B</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><p>Produto C</p></div>
+            <div class="col"><p>Produto D</p></div>
+            <div class="col"><p>Produto E</p></div>
+        </div>
+    </div>
+
+    <!-- Tamanho de coluna -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-11"></div>
+        </div>
+    </div>
+
+    <div class="container" id="tamanho-largura">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <!-- Alinhamento vertical -->
+    <div class="container vertical">
+        <div class="row align-items-end">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+    <div class="container vertical">
+        <div class="row align-items-center">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+    <!-- Alinhamento horizontal -->
+    <div class="container vertical">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <!-- Alinhamento de item -->
+    <div class="container vertical">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <!-- Ordem dos elementos -->
+    <div class="container vertical">
+        <div class="row">
+            <div class="col-3 order-3">3</div>
+            <div class="col-3 order-1">1</div>
+            <div class="col-3 order-4">4</div>
+            <div class="col-3 order-2">2</div>
+        </div>
+    </div>
+
+    <!-- offset -->
+    <div class="container vertical" id="offset">
+        <div class="row">
+            <div class="col-md-3 offset-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-2"></div>
+        </div>
+    </div>
+
+</body>
+</html>

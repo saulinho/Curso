@@ -1,0 +1,83 @@
+/* XS */
+h1 {
+    color: red;
+}
+
+/* SM */
+
+@media(min-width: 576px){
+    h1 {
+        color: blue;
+    }    
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
+
+.container-sm {
+    border: 2px solid green
+}
+
+.container-md {
+    border: 2px solid blue
+}
+
+.container-lg {
+    border: 2px solid red;
+}
+
+/* Grid */
+
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col, .col-4, .col-2, .col-1, .col-11, .col-6, .col-3 {
+    border: 2px dashed pink;
+    height: 100%;
+    margin: 0;
+}
+
+#tamanho-largura {
+    max-width: 500px;
+}
+
+.vertical {
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.col-6, .col-3 {
+    height: 50px;
+}
+
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3 {
+    height: 50px;
+    border: solid red;
+}
